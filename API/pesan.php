@@ -45,5 +45,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $response['value'] = 0;
   $response['message'] = "Keranjang Kosong";
   echo json_encode($response);
-}
+ }
 }
